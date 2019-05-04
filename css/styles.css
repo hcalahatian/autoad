@@ -1,0 +1,106 @@
+body {
+    background-color: #ebebeb;
+}
+
+#section-products {}
+
+.autoad-logo {
+    border: 2px solid #003b63;
+    /* border-radius: 4px; */
+    padding: 5px;
+    /* width: 150px; */
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 10px 0 grey, 0 2px 15px 0 rgba(0, 0, 0, 0.12); */
+    box-shadow: 0 40px 30px -40px rgba(0, 0, 0, 0.9);
+}
+
+.brand-logo {
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 3% 10% 5%;
+}
+
+.navbar {
+    border-top: 5px solid #003b63;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px grey;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.26), 0 2px 15px 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to bottom, #fff 0%, #d6d6d6 100%);
+}
+
+.navbar-brand {
+    width: 15%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #003b63;
+}
+
+.navbar-toggler {
+    padding-top: 0.125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navbar-toggler-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.nav-link:hover {
+    background-color: #fffcab;
+    background-image: linear-gradient(#ffc60b, #fffcab);
+    border-radius: 20px 5px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0);
+    color: #000 !important;
+    text-shadow: 0 5px 8px grey;
+}
+
+.phone-email {
+    font-size: 1vw;
+}
+
+.products {
+    height: 500px;
+    background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%);
+    /* background: linear-gradient(to bottom, #f9d300 0%, #ccad00 100%); */
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #005689;
+        padding: 0.5rem 2.5rem;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #005689;
+        padding: 0.5rem 2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .phone-email {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .phone-email {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .phone-email {
+        font-size: 2.5vw;
+    }
+}
