@@ -8,6 +8,10 @@ header {
     background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%);
 }
 
+hr {
+    margin: 0.5rem 0;
+}
+
 .autoad-logo {
     border: 2px solid #003b63;
     /* border-radius: 4px; */
@@ -33,23 +37,33 @@ header {
 
 .features-box {
     text-align: center;
-    padding: 0 4.5% 4.5%;
+    padding: 0 4.5%;
 }
 
 /* .features-table {
     border: 1px solid;
     background-color: rgba(50, 115, 220, 0.8);
     box-shadow: 10px 10px 10px 0 #888888;
-}
+} */
 
 .features-title-text {
     font-family: 'Ubuntu';
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: bold;
     margin: 0;
-    padding: 3% 0;
+    padding: 3% 0 1%;
     text-align: center;
-} */
+    color: #0076bc;
+}
+
+.icon {
+    color: #003b63;
+    margin: 2rem;
+}
+
+.icon:hover {
+    color: #1eafed;
+}
 
 .navbar {
     border-top: 5px solid #003b63;
@@ -86,7 +100,7 @@ header {
     background-color: #fffcab;
     background-image: linear-gradient(#ffc60b, #fffcab);
     border-radius: 20px 5px;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
     color: #000 !important;
     text-shadow: 0 5px 8px grey;
 }
@@ -95,11 +109,30 @@ header {
     font-size: 1vw;
 }
 
+@media (max-width: 1200px) and (min-width: 992px) {
+    .features-content {
+        font-size: 1.3vw;
+        font-weight: 400;
+    }
+
+    .icon {
+        margin: 1.5rem;
+    }
+
+    .fa-4x {
+        font-size: 3em;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #005689;
         padding: 0.5rem 2.5rem;
         text-align: center !important;
+    }
+
+    .features-title {
+        font-size: 2vw;
     }
 }
 
@@ -108,11 +141,46 @@ header {
         color: #005689;
         padding: 0.5rem 2rem;
     }
+
+    .fa-4x {
+        font-size: 3em;
+    }
+
+    .features-content {
+        font-size: 2vw;
+        font-weight: 400;
+    }
+
+    .features-content {
+        font-size: 1.5vw;
+        font-weight: 400;
+    }
+
+    .icon {
+        margin: 1.5rem;
+    }
 }
 
 @media (max-width: 900px) {
     .phone-email {
         font-size: 1.5vw;
+    }
+
+    .features-title-text {
+        font-size: 4vw;
+    }
+
+    .features-title {
+        font-size: 2.5vw;
+    }
+
+    .features-content {
+        font-size: 1.8vw;
+        font-weight: 400;
+    }
+
+    .icon {
+        margin: 1rem;
     }
 }
 
@@ -120,10 +188,48 @@ header {
     .phone-email {
         font-size: 2vw;
     }
+
+    .fa-4x {
+        font-size: 2.5em;
+    }
+
+    .features-title-text {
+        font-size: 5vw;
+    }
+
+    .features-title {
+        font-size: 3vw;
+    }
+
+    .features-content {
+        font-size: 2vw;
+        font-weight: 400;
+    }
+
+    .icon {
+        margin: 0.5rem;
+    }
 }
 
 @media (max-width: 500px) {
     .phone-email {
         font-size: 2.5vw;
+    }
+
+    .fa-4x {
+        font-size: 2em;
+    }
+
+    .features-title-text {
+        font-size: 6vw;
+    }
+
+    .features-title {
+        font-size: 4vw;
+    }
+
+    .features-content {
+        font-size: 2.5vw;
+        font-weight: 400;
     }
 }
