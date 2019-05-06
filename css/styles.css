@@ -2,7 +2,11 @@ body {
     background-color: #ebebeb;
 }
 
-#section-products {}
+header {
+    /* box-shadow: 0 40px 30px -40px rgba(0, 0, 0, 0.9); */
+    /* background-color: #0076bc; */
+    background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%);
+}
 
 .autoad-logo {
     border: 2px solid #003b63;
@@ -11,7 +15,7 @@ body {
     /* width: 150px; */
     border-radius: 20px;
     /* box-shadow: 10px 10px 10px 0 grey, 0 2px 15px 0 rgba(0, 0, 0, 0.12); */
-    box-shadow: 0 40px 30px -40px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 50px 30px -30px rgba(0, 0, 0, 0.9);
 }
 
 .brand-logo {
@@ -21,6 +25,31 @@ body {
 .container-fluid {
     padding: 3% 10% 5%;
 }
+
+.features {
+    background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
+    /* background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%); */
+}
+
+.features-box {
+    text-align: center;
+    padding: 0 4.5% 4.5%;
+}
+
+/* .features-table {
+    border: 1px solid;
+    background-color: rgba(50, 115, 220, 0.8);
+    box-shadow: 10px 10px 10px 0 #888888;
+}
+
+.features-title-text {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 3% 0;
+    text-align: center;
+} */
 
 .navbar {
     border-top: 5px solid #003b63;
@@ -64,12 +93,6 @@ body {
 
 .phone-email {
     font-size: 1vw;
-}
-
-.products {
-    height: 500px;
-    background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%);
-    /* background: linear-gradient(to bottom, #f9d300 0%, #ccad00 100%); */
 }
 
 @media (min-width: 992px) {
