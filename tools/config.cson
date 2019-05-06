@@ -1,0 +1,24 @@
+"*":
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+      end_with_newline: true
+      force_indentation: true
+      indent_size: 4
+      preserve_newlines: true
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 4
+      wrap_line_length: 0
+  core:
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 15
+    preferredLineLength: 300
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "b622242f-f019-433d-a2f1-7d745d952100"
+  "linter-jshint":
+    lintInlineJavaScript: true
