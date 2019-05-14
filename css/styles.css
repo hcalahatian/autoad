@@ -13,14 +13,18 @@ hr {
     margin: 0.5rem 0;
 }
 
-#section-products {
-    background: #fdfdfd;
-    text-align: center;
+#section-company {
+    background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
 }
 
 #section-features {
     background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
     /* background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%); */
+    text-align: center;
+}
+
+#section-fproducts {
+    background: #fdfdfd;
     text-align: center;
 }
 
@@ -31,6 +35,10 @@ hr {
 }
 
 #section-privacy {
+    background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
+}
+
+#section-products {
     background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
 }
 
@@ -367,6 +375,14 @@ hr {
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #005689;
         padding: 0.5rem 2rem;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link {
+        color: #003b63;
+        border-color: grey;
+        border-width: 5px;
+        border-left-style: solid;
+        border-bottom: none;
     }
 
     .company-logo {
