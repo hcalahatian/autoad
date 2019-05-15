@@ -15,14 +15,19 @@ body {
     font-weight: bold;
     /* color: #58595a; */
     color: #0076bc;
-    text-shadow: #fffcab 2px 2px 0px, #9C9C9C 4px 4px 0px;
+    text-shadow: #fffcab 2px 2px 0, #9C9C9C 4px 4px 0;
 }
 
-.gallery-container p.page-description {
+.gallery-container .page-description {
     text-align: center;
     margin: 30px auto;
     font-size: 18px;
     color: #85878c;
+}
+
+.oth-products {
+    padding: 2% 30%;
+    line-height: 2;
 }
 
 .tz-gallery {
