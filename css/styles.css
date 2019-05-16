@@ -17,6 +17,10 @@ hr {
     background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
 }
 
+#section-contactform {
+    background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
+}
+
 #section-features {
     background: linear-gradient(to bottom, #fff 0%, #bfbfbf 100%);
     /* background: linear-gradient(to bottom, #0076bc 0%, #003b63 100%); */
