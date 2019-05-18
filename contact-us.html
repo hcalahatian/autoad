@@ -31,10 +31,6 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/contactform.css">
-
-    <!-- Local JS -->
-    <script src="contactform.js"></script>
 </head>
 
 <body>
@@ -79,109 +75,24 @@
     <section id="section-contactform">
         <div class="contact-form container-fluid">
             <div class="row">
-                <div class="col-md-3"></div>
                 <div id="form_container" class="col-md-6">
-                    <h2>Contact Us</h2>
-                    <p> Please send your message below. We will get back to you at the earliest! </p>
-
-                    <form id="reused-form" role="form" method="post">
-                        <div class="row">
-                            <div class="col-sm-6 form-group">
-                                <label for="name"> Your Name:</label>
-                                <input type="text" class="form-control" id="name" name="name" required>
-                            </div>
-                            <div class="col-sm-6 form-group">
-                                <label for="email"> Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <label for="message"> Message:</label>
-                                <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <button type="submit" class="btn btn-lg btn-light pull-right">Send &rarr;</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div id="success_message" style="width:100%; height:100%; display:none; ">
-                        <h3>Posted your message successfully!</h3>
-                    </div>
-                    <div id="error_message" style="width:100%; height:100%; display:none; ">
-                        <h3>Error</h3> Sorry there was an error sending your form.
+                    <i class="fas fa-map-marker-alt fa-2x"></i> &nbsp; &nbsp;774A Casa Corazon Bldg. M. Earnshaw St.,<br> Sampaloc, Manila, Philippines <br><br>
+                    <i class="fas fa-phone fa-2x"></i> &nbsp; &nbsp; 736 - 9424 / 984 - 9934 <br><br>
+                    <i class="fas fa-envelope-open-text fa-1x"></i> &nbsp; &nbsp; autoadtrading@yahoo.com <br><br>
+                    <i class="fas fa-globe fa-2x"></i> &nbsp; &nbsp; www.autoadtrading.com <br><br>
+                    <div class="widget-box col my-auto connect-us">
+                        <i class="conn-us fab fa-facebook fa-2x"></i>
+                        <i class="conn-us fab fa-facebook-messenger fa-2x"></i>
+                        <i class="conn-us fab fa-instagram fa-2x"></i>
+                        <i class="conn-us fab fa-twitter fa-2x"></i>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-6 map">
+                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d500.3475338092231!2d120.99337588146082!3d14.60755908955162!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a746db103049ba6!2sAuto+Ad+Trading!5e0!3m2!1sen!2sph!4v1558147773917!5m2!1sen!2sph" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- <section id="section-company">
-        <div class="company-profile container-fluid">
-            <div class="row">
-                <div class="col-lg">
-                    <h1 class="about-us-title">The Company</h1>
-                    <hr class="hr-black">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="company-logo img-fluid mx-auto d-block" src="./images/autoad-logo.png" alt="autoad-logo">
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content">
-                        <p class="text-justify">AutoAd Trading is a privately owned company established in January 2009, known for supplying acrylic sheets and other advertising materials such as LED lights, power supply, sintra boards, polycarbonate, etc. AutoAd Trading is located in Sampaloc Manila, operates, and delivers products to clients around Metro Manila and nearby provinces of Luzon.</p>
-                        <p class="text-justify">We believe in quality products at a good price and outstanding service will establish trust, confidence and respect with our clients. Our friendly staffs are all experienced and knowledgeable on the different specifications of every material that we have.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <hr class="hr-dotted">
-            </div>
-            <div class="row">
-                <div class="col-lg">
-                    <h1 class="about-us-title">Mission</h1>
-                    <hr class="hr-black">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg about-content">
-                    <p class="text-justify">To provide top quality advertising materials at a reasonable price and services that exceeds the expectation of our current and future clients.</p>
-                </div>
-            </div>
-            <div class="row">
-                <hr class="hr-dotted">
-            </div>
-            <div class="row">
-                <div class="col-lg">
-                    <h1 class="about-us-title">Vision</h1>
-                    <hr class="hr-black">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg about-content">
-                    <p class="text-justify">To become the most preferred advertising supplier company in the Philippines when it comes in top quality, cost efficient and environment friendly materials.</p>
-                </div>
-            </div>
-            <div class="row">
-                <hr class="hr-dotted">
-            </div>
-            <div class="row">
-                <div class="col-lg">
-                    <h1 class="about-us-title">Our Team</h1>
-                    <hr class="hr-black">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg about-content">
-                    <p class="text-justify">AutoAd Trading is not just a company of friendly and professional people but rather it is a family who cares for each other and to their clients. AutoAd Trading’s current head count may not be as large as other company, we ensure that our quality of services are top notch and can be as good as those leading companies.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section id="section-footer" class="footer">
         <div class="widgets container-fluid">
             <div class="row">
