@@ -179,14 +179,9 @@ hr {
 
 .google-map {
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: 0;
     box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.26), 0 2px 15px 0 rgba(0, 0, 0, 0.12);
-}
-
-.map {
-    padding-left: 11px;
-    padding-right: 15px;
 }
 
 .hr-black {
@@ -213,6 +208,11 @@ hr {
 
 .icon:hover {
     color: #1eafed;
+}
+
+.map {
+    padding-left: 11px;
+    padding-right: 15px;
 }
 
 .navbar {
