@@ -94,7 +94,7 @@ https://www.privacypolicytemplate.net/live.php?token=L1rNlVHCXYZlLcpq8FRZhyCBSSh
 <h2>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, please contact us:</p>
 <ul>
-    <li>By email: autoadtrading@yahoo.com</li>
+    <li>By email: auto.ad_trading@yahoo.com</li>
     <li>By visiting this page on our website: www.autoadtrading.com</li>
     <li>By phone number: 736 - 9424</li>
 </ul>
